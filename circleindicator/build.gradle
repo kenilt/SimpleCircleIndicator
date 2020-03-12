@@ -2,6 +2,8 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
 
+apply from: "$project.rootDir/tools/script-git-version.gradle"
+
 ext {
     bintrayRepo = 'SimpleCircleIndicator' // Repo name in bintray dashboard
     bintrayName = 'com.kenilt.circleindicator' // package name of the bintray repo
@@ -15,7 +17,7 @@ ext {
     siteUrl = 'https://github.com/kenilt/SimpleCircleIndicator'    // git repo url
     gitUrl = 'https://github.com/kenilt/SimpleCircleIndicator.git' // git repo vcs url
 
-    libraryVersion = '1.0.0'      // library version
+    libraryVersion = appVersionName      // library version
 
     developerId = 'kenilt'                // This is your bintray username
     developerName = 'Kenilt Nguyen'              // Developer's name
@@ -33,8 +35,8 @@ android {
     defaultConfig {
         minSdkVersion 16
         targetSdkVersion 29
-        versionCode 1
-        versionName "1.0"
+        versionCode appVersionCode
+        versionName appVersionName
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles 'consumer-rules.pro'
