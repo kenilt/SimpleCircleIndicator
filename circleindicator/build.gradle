@@ -2,6 +2,30 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
 
+ext {
+    bintrayRepo = 'SimpleCircleIndicator' // Repo name in bintray dashboard
+    bintrayName = 'com.kenilt.circleindicator' // package name of the bintray repo
+
+    publishedGroupId = 'com.kenilt.circleindicator'   // this is the ID we want to see in implementation line
+    libraryName = 'circleindicator'     // this is the module name of library
+    artifact = 'circleindicator'        // this is the artifact we want to see in implementation line
+
+    libraryDescription = 'A simple circle indicator which support slide animation' // description of library
+
+    siteUrl = 'https://github.com/kenilt/SimpleCircleIndicator'    // git repo url
+    gitUrl = 'https://github.com/kenilt/SimpleCircleIndicator.git' // git repo vcs url
+
+    libraryVersion = '1.0.0'      // library version
+
+    developerId = 'kenilt'                // This is your bintray username
+    developerName = 'Kenilt Nguyen'              // Developer's name
+    developerEmail = 'nhthang.khtn@gmail.com'                // Developer's email
+
+    licenseName = 'The Apache Software License, Version 2.0'  // for example, The Apache Software License, Version 2.0
+    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'   // for example, http://www.apache.org/licenses/LICENSE-2.0.txt
+    allLicenses = ["Apache-2.0"]    // array of licenses, for example, ["Apache-2.0"]
+}
+
 android {
     compileSdkVersion 29
     buildToolsVersion "29.0.2"
@@ -34,3 +58,10 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
 }
+
+// Avoid Kotlin docs error
+tasks.withType(Javadoc).all {
+    enabled = false
+}
+
+apply from: 'publish.gradle'

@@ -177,21 +177,27 @@ class CirclePageIndicator @JvmOverloads constructor(context: Context, attrs: Att
         val longSize: Int
         val longPaddingBefore: Int
         val longPaddingAfter: Int
+        val shortSize: Int
         val shortPaddingBefore: Int
+        val shortPaddingAfter: Int
         if (mOrientation == HORIZONTAL) {
             longSize = width
+            shortSize = height
             longPaddingBefore = paddingLeft
             longPaddingAfter = paddingRight
             shortPaddingBefore = paddingTop
+            shortPaddingAfter = paddingBottom
         } else {
             longSize = height
+            shortSize = width
             longPaddingBefore = paddingTop
             longPaddingAfter = paddingBottom
             shortPaddingBefore = paddingLeft
+            shortPaddingAfter = paddingRight
         }
 
         val threeRadius = mRadius * 3
-        val shortOffset = shortPaddingBefore + mRadius
+        val shortOffset = (shortSize - shortPaddingBefore - shortPaddingAfter) / 2f + shortPaddingBefore
         var longOffset = longPaddingBefore + mRadius
         if (mCentered) {
             longOffset += (longSize - longPaddingBefore - longPaddingAfter) / 2.0f - count * threeRadius / 2.0f
