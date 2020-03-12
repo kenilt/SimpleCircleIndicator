@@ -1,5 +1,5 @@
 # SimpleCircleIndicator
-A simple circle indicator which support slide animation
+A simple circle indicator which supports slide animation
 
 [ ![Download](https://api.bintray.com/packages/kenilt/SimpleCircleIndicator/com.kenilt.circleindicator/images/download.svg) ](https://bintray.com/kenilt/SimpleCircleIndicator/com.kenilt.circleindicator/_latestVersion)
 
@@ -15,7 +15,7 @@ Gradle
 ##### AndroidX
 ```groovy
 dependencies {
-    implementation 'com.kenilt.circleindicator:circleindicator:1.0.0'
+    implementation 'com.kenilt.circleindicator:circleindicator:1.0.1'
 }
 ```
 
