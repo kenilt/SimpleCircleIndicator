@@ -28,7 +28,7 @@ dependencies {
 ```
 
 
-Usage
+# Usage
 --------
 
 ```kotlin
@@ -37,7 +37,7 @@ circleIndicator.setViewPager(vpPager)
 ```
 
 
-XML Properties
+### XML Properties
 --------
 
 ```xml
@@ -58,7 +58,7 @@ XML Properties
 | app:strokeColor	| #40ffffff				|
 | app:strokeWidth		| 1dp			|
 
-Credits
+# Credits
 -------
 
  * [Patrik Åkerfeldt][1] - Author of [ViewFlow][2], a precursor to the ViewPager,
@@ -70,7 +70,7 @@ Credits
 
 
 
-License
+# License
 =======
 
     Copyright 2020 Kenilt Nguyen
