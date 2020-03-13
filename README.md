@@ -7,13 +7,21 @@ A simple circle indicator which supports slide animation
 <img src="/screenshot/app_demo.gif" width="300">
 
 
+# Sample app
+You can download the apk for the sample app of this library [at this link](./app/apk).
 
-Gradle
-------------
+The code of the sample app is available [at this link](./app/).
 
+Having the sample apps installed is a good way to be notified of new releases. Although watching this repository will allow GitHub to email you whenever a new release is published.
+
+
+# Download
+The Gradle dependency is available via [jCenter](https://bintray.com/kenilt/SimpleCircleIndicator). jCenter is the default Maven repository used by Android Studio.
+
+The minimum API level supported by this library is API 16.
 
 ##### AndroidX
-```groovy
+```
 dependencies {
     implementation 'com.kenilt.circleindicator:circleindicator:1.0.1'
 }
