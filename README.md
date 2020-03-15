@@ -1,7 +1,7 @@
 # SimpleCircleIndicator
-A simple circle indicator which supports slide animation
-
 [ ![Download](https://api.bintray.com/packages/kenilt/SimpleCircleIndicator/com.kenilt.circleindicator/images/download.svg) ](https://bintray.com/kenilt/SimpleCircleIndicator/com.kenilt.circleindicator/_latestVersion)
+
+A simple circle indicator which supports slide animation
 
 
 ## Demo screenshot
