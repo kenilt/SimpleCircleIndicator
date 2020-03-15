@@ -22,6 +22,7 @@ The Gradle dependency is available via [jCenter](https://bintray.com/kenilt/Simp
 The minimum API level supported by this library is API 16.
 
 ##### AndroidX
+The latest version here [ ![Download](https://api.bintray.com/packages/kenilt/SimpleCircleIndicator/com.kenilt.circleindicator/images/download.svg) ](https://bintray.com/kenilt/SimpleCircleIndicator/com.kenilt.circleindicator/_latestVersion)
 ```
 dependencies {
     implementation 'com.kenilt.circleindicator:circleindicator:1.0.1'
