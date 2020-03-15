@@ -4,6 +4,7 @@ A simple circle indicator which supports slide animation
 [ ![Download](https://api.bintray.com/packages/kenilt/SimpleCircleIndicator/com.kenilt.circleindicator/images/download.svg) ](https://bintray.com/kenilt/SimpleCircleIndicator/com.kenilt.circleindicator/_latestVersion)
 
 
+## Demo screenshot
 <img src="/screenshot/app_demo.gif" width="300">
 
 
@@ -29,7 +30,6 @@ dependencies {
 
 
 # Usage
---------
 
 ```kotlin
 vpPager.adapter = adapter
@@ -38,7 +38,6 @@ circleIndicator.setViewPager(vpPager)
 
 
 ### XML Properties
---------
 
 ```xml
 <com.kenilt.circleindicator.CirclePageIndicator
@@ -59,7 +58,6 @@ circleIndicator.setViewPager(vpPager)
 | app:strokeWidth		| 1dp			|
 
 # Credits
--------
 
  * [Patrik Åkerfeldt][1] - Author of [ViewFlow][2], a precursor to the ViewPager,
    which supports paged views and is the original source of both the title
@@ -71,7 +69,6 @@ circleIndicator.setViewPager(vpPager)
 
 
 # License
-=======
 
     Copyright 2020 Kenilt Nguyen
     Copyright 2012 Jake Wharton
