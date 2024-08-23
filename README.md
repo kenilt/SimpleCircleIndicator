@@ -1,5 +1,5 @@
 # SimpleCircleIndicator
-[ ![Download](https://api.bintray.com/packages/kenilt/SimpleCircleIndicator/com.kenilt.circleindicator/images/download.svg) ](https://bintray.com/kenilt/SimpleCircleIndicator/com.kenilt.circleindicator/_latestVersion)
+[ ![Download]) ](https://central.sonatype.com/artifact/io.github.kenilt/circleindicator)
 
 A simple circle indicator which supports slide animation
 
@@ -17,15 +17,15 @@ Having the sample apps installed is a good way to be notified of new releases. A
 
 
 # Download
-The Gradle dependency is available via [jCenter](https://bintray.com/kenilt/SimpleCircleIndicator). jCenter is the default Maven repository used by Android Studio.
+The Gradle dependency is available via [mavenCentral](https://central.sonatype.com/artifact/io.github.kenilt/circleindicator).
 
-The minimum API level supported by this library is API 16.
+The minimum API level supported by this library is API 21.
 
 ##### AndroidX
-The latest version here [ ![Download](https://api.bintray.com/packages/kenilt/SimpleCircleIndicator/com.kenilt.circleindicator/images/download.svg) ](https://bintray.com/kenilt/SimpleCircleIndicator/com.kenilt.circleindicator/_latestVersion)
+The latest version here [ ![Download]) ](https://central.sonatype.com/artifact/io.github.kenilt/circleindicator)
 ```
 dependencies {
-    implementation 'com.kenilt.circleindicator:circleindicator:1.0.1'
+    implementation("io.github.kenilt:circleindicator:1.0.1")
 }
 ```
 
