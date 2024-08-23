@@ -1,5 +1,5 @@
 # SimpleCircleIndicator
-[ ![Download]) ](https://central.sonatype.com/artifact/io.github.kenilt/circleindicator)
+[ ![Download] ](https://central.sonatype.com/artifact/io.github.kenilt/circleindicator)
 
 A simple circle indicator which supports slide animation
 
@@ -22,7 +22,7 @@ The Gradle dependency is available via [mavenCentral](https://central.sonatype.c
 The minimum API level supported by this library is API 21.
 
 ##### AndroidX
-The latest version here [ ![Download]) ](https://central.sonatype.com/artifact/io.github.kenilt/circleindicator)
+The latest version here [ ![Download] ](https://central.sonatype.com/artifact/io.github.kenilt/circleindicator)
 ```
 dependencies {
     implementation("io.github.kenilt:circleindicator:1.0.1")
